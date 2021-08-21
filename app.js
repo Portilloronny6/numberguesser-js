@@ -52,7 +52,7 @@ guessBtn.addEventListener("click", function () {
     setMessage(`${guess} is not correct, ${guessesLeft} guesses left`, "red");
     guessInput.value = "";
     if (guessesLeft === 0) {
-      gameOver(false, `Game over. You lost 😭 correct name was ${guess}`);
+      gameOver(false, `Game over. You lost 😭 correct number was ${guess}`);
       guessInput.remove();
     }
   }
