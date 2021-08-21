@@ -18,7 +18,7 @@ This project has been created by **Ronny Portillo** in order to be able to guess
 
 To test the project please go to the following link: <a href="https://portilloronny6.github.io/numberguesser-js/" target="_blank">Project</a>
 
-![Logo](Screenshot_1.png)
+<img src="Screenshot_1.png" alt="project" style="width: 60%">
 
 ## Tech using in this project
 
