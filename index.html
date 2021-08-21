@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Number Guesser</title>
+  </head>
+  <body>
+    <div class="container" style="text-align: center">
+      <h1>Number Guesser</h1>
+      <div id="game">
+        <p>
+          Guess a number between <span class="min-num">1</span> and
+          <span class="max-num">10</span>
+        </p>
+        <input
+          type="number"
+          id="guess-input"
+          placeholder="Enter your guess..."
+        />
+        <input type="submit" value="Submit" id="guess-btn" />
+        <p class="message"></p>
+      </div>
+    </div>
+
+    <footer
+      id="footer"
+      style="position: absolute; bottom: 0; width: 100%; text-align: center"
+    >
+      <div class="footer-copyright">
+        <div class="container">
+          <div>
+            <p style="font-size: medium; color: black">
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              |
+              <a
+                href="https://portilloronny6.github.io/website/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ronny Portillo</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
