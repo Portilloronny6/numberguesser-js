@@ -16,7 +16,7 @@ Python, Javascript, HTML, CSS, Git, Unit Testing, Asynchronous programming, Djan
 
 This project has been created by **Ronny Portillo** in order to be able to guess a number between 1 and 10.
 
-To test the project please go to the following link: <a href="https://portilloronny6.github.io/loancalculator-js/" target="_blank">Project</a>
+To test the project please go to the following link: <a href="https://portilloronny6.github.io/numberguesser-js/" target="_blank">Project</a>
 
 ![Logo](Screenshot_1.png)
 
